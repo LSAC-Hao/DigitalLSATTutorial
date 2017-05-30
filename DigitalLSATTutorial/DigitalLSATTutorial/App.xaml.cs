@@ -12,8 +12,8 @@ namespace DigitalLSATTutorial
         public App()
         {
             InitializeComponent();
-
-            MainPage = new DigitalLSATTutorial.MainPage();
+            NavigationPage.SetHasNavigationBar(this, false);
+            MainPage = new DigitalLSATTutorial.DashBoard();
         }
 
         protected override void OnStart()

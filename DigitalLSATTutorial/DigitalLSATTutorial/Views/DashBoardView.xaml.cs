@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
 namespace DigitalLSATTutorial
 {
-    public partial class MainPage : ContentPage
+    public partial class DashBoardView : ContentView
     {
-        public MainPage()
+        public DashBoardView()
         {
             InitializeComponent();
         }

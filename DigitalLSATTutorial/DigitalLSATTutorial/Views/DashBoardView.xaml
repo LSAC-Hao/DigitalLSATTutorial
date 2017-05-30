@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="DigitalLSATTutorial.DashBoardView"
+             xmlns:local="clr-namespace:DigitalLSATTutorial;assembly=org.lsac.DigitalLSATTutorial"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             BackgroundColor="{DynamicResource lsac_pms_643}"
+             Padding="30,0,30,0"
+             >
+    <ContentView.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal" HeightRequest="13%">
+                <ffimageloading:CachedImage 
+                    Source="digital_lsat.png"
+                    local:AccessibilityEffect.AccessibilityLabel="Digital LSAT Logo"
+                    HorizontalOptions="Center"
+                    HeightRequest="100%"
+                    />
+                <Label Text="Just Test" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HeightRequest="80%">
+                <Label Text="Just Test 2" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HeightRequest="7%">
+                <Label Text="Just Test 3" />
+            </StackLayout>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
